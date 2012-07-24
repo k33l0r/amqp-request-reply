@@ -1,0 +1,23 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    amq-client (0.9.4)
+      amq-protocol (>= 0.9.4)
+      eventmachine
+    amq-protocol (0.9.4)
+    amqp (0.9.7)
+      amq-client (~> 0.9.4)
+      amq-protocol (>= 0.9.4)
+      eventmachine
+    eventmachine (0.12.10)
+    foreman (0.51.0)
+      thor (>= 0.13.6)
+    thor (0.15.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  amqp
+  eventmachine
+  foreman
