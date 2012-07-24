@@ -2,8 +2,6 @@ require "amqp"
 
 $stdout.sync = true
 
-puts "Server"
-
 EventMachine.run do
   connection = AMQP.connect
   channel    = AMQP::Channel.new(connection)
